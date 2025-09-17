@@ -1,7 +1,7 @@
 # Create Backend Deployment & Cluster IP Service
 
 <aside>
-💡 create 2 pods with backend app, and frontend app
+ create 2 pods with backend app, and frontend app
 
 </aside>
 
@@ -77,7 +77,7 @@ kubectl get all
 ```
 
 <aside>
-💡 **Access REST Application**
+ **Access REST Application**
 
 </aside>
 
@@ -139,7 +139,7 @@ spec:
 ![alt text](image-3.png)
 
 <aside>
-💡 output
+ output
 
 </aside>
 

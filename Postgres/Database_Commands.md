@@ -1,7 +1,7 @@
 # Database commands
 
 <aside>
-💡 check database users
+ check database users
 
 </aside>
 
@@ -10,7 +10,7 @@ SELECT usename FROM pg_user WHERE usesuper = true;
 ```
 
 <aside>
-💡 list all the users in a PostgreSQL database along with their details, you can use the following SQL query:
+ list all the users in a PostgreSQL database along with their details, you can use the following SQL query:
 
 </aside>
 
@@ -19,7 +19,7 @@ SELECT * FROM pg_user;
 ```
 
 <aside>
-💡 command to reset the password for the "supabase_admin" user:
+ command to reset the password for the "supabase_admin" user:
 
 </aside>
 
@@ -29,7 +29,7 @@ ALTER USER postgres PASSWORD 'Sheetal123';
 ```
 
 <aside>
-💡 To list all the databases in a PostgreSQL server
+ To list all the databases in a PostgreSQL server
 
 </aside>
 
@@ -39,7 +39,7 @@ SELECT datname FROM pg_database;
 ```
 
 <aside>
-💡 no of ideal connections
+ no of ideal connections
 
 </aside>
 
@@ -48,7 +48,7 @@ SELECT count(*) FROM pg_stat_activity WHERE state = 'idle';
 ```
 
 <aside>
-💡 no of ideal connection with pid
+ no of ideal connection with pid
 
 </aside>
 
@@ -59,7 +59,7 @@ WHERE state = 'idle' AND usename = 'postgres';
 ```
 
 <aside>
-💡 delete or terminate single ideal connections
+ delete or terminate single ideal connections
 
 </aside>
 
@@ -68,7 +68,7 @@ SELECT pg_terminate_backend(pid);
 ```
 
 <aside>
-💡 delete all idea connection with psql function
+ delete all idea connection with psql function
 
 </aside>
 
@@ -91,7 +91,7 @@ END $$;
 ```
 
 <aside>
-💡 delete process if start with particular no
+ delete process if start with particular no
 
 </aside>
 
@@ -112,7 +112,7 @@ END $$;
 ```
 
 <aside>
-💡 check no of ideal connection in postures within time interval
+ check no of ideal connection in postures within time interval
 
 </aside>
 
@@ -124,7 +124,7 @@ WHERE state = 'idle'
 ```
 
 <aside>
-💡 ideal connection time out
+ ideal connection time out
 
 </aside>
 ```bash

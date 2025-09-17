@@ -1,7 +1,7 @@
 # Create EKS using EKCTL
 
 <aside>
-💡 install aws cli, ekctl,kubectl on client machine #machine requirment should be minimum 2 vcpu
+ install aws cli, ekctl,kubectl on client machine #machine requirment should be minimum 2 vcpu
 
 </aside>    
 
@@ -18,7 +18,7 @@ kubectl version --short --client
 ```
 
 <aside>
-💡 install ekctl
+ install ekctl
 
 </aside>
 
@@ -38,7 +38,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 ```
 
 <aside>
-💡 install aws cli
+ install aws cli
 
 </aside>
 
@@ -49,7 +49,7 @@ sudo ./aws/install
 ```
 
 <aside>
-💡 create cluster using ekctl command
+ create cluster using ekctl command
 
 </aside>
 
@@ -66,7 +66,7 @@ eksctl get cluster
 ```
 
 <aside>
-💡 **Step-02: Create & Associate IAM OIDC Provider for our EKS Cluster**
+ **Step-02: Create & Associate IAM OIDC Provider for our EKS Cluster**
 
 </aside>
 
@@ -92,12 +92,12 @@ eksctl utils associate-iam-oidc-provider \
 
 
 <aside>
-💡 **Step-03: Create EC2 Keypair to access worker node**
+ **Step-03: Create EC2 Keypair to access worker node**
 
 </aside>
 
 <aside>
-💡 **Step-04: Create Node Group with additional Add-Ons in Public Subnets**
+ **Step-04: Create Node Group with additional Add-Ons in Public Subnets**
 
 </aside>
 
@@ -126,7 +126,7 @@ eksctl create nodegroup --cluster=eksdemo1 \
 ```
 
 <aside>
-💡 **Step-05: Verify Cluster & Nodes**
+ **Step-05: Verify Cluster & Nodes**
 
 </aside>
 

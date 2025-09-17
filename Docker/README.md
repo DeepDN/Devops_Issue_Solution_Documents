@@ -1,6 +1,6 @@
 # Docker Documentation
 
-## 📋 Contents
+##  Contents
 - [Installation Guide](./installation.md)
 - [Configuration](./configuration.md)
 - [Troubleshooting](./troubleshooting.md)

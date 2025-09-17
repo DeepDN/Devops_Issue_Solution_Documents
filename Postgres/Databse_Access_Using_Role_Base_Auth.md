@@ -1,7 +1,7 @@
 # Databse Access Using Rolebase Authentication
 
 <aside>
-💡 create docker compose
+ create docker compose
 
 </aside>
 
@@ -25,7 +25,7 @@ services:
 ```
 
 <aside>
-💡 docker compose up
+ docker compose up
 
 </aside>
 

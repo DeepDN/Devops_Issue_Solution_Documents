@@ -26,7 +26,7 @@ step 2
 - create new key-select pem -save
 
 <aside>
-💡 for check jenkins status:- sudo systemctl status jenkins
+ for check jenkins status:- sudo systemctl status jenkins
 
 </aside>
 
@@ -42,7 +42,7 @@ step 2
 ![alt text](image-1.png)
 
 <aside>
-💡 step-3
+ step-3
 
 </aside>
 
@@ -76,7 +76,7 @@ users:
 ```
 
 <aside>
-💡 step 4
+ step 4
 
 </aside>
 

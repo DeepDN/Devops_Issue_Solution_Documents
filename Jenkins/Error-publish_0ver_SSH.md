@@ -1,7 +1,7 @@
 # Publish-over-ssh error sloution
 
 <aside>
-💡 authentication faile
+ authentication faile
 
 </aside>
 
@@ -18,7 +18,7 @@ Mar 19 05:45:53 ip-172-31-38-194 sshd[3210]: Disconnected from authenticating us
 ```
 
 <aside>
-💡 solution
+ solution
 
 </aside>
 

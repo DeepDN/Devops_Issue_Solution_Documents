@@ -5,7 +5,7 @@
 ![Screenshot from 2023-05-05 12-31-08.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a45102fd-8243-4bf0-a003-f190630afd10/Screenshot_from_2023-05-05_12-31-08.png)
 
 <aside>
-💡 **EKS Storage -  Storage Classes, Persistent Volume Claims**
+ **EKS Storage -  Storage Classes, Persistent Volume Claims**
 
 </aside>
 
@@ -20,7 +20,7 @@
 | ClusterIP Service | 05-mysql-clusterip-service.yml |
 
 <aside>
-💡 01-storage-class.yml
+ 01-storage-class.yml
 
 </aside>
 
@@ -34,7 +34,7 @@ volumeBindingMode: WaitForFirstConsumer (or imidiate)  # volume az is dynamic we
 ```
 
 <aside>
-💡 02-persistent-volume-claim.yml
+ 02-persistent-volume-claim.yml
 
 </aside>
 
@@ -53,7 +53,7 @@ spec:
 ```
 
 <aside>
-💡 03-UserManagement-ConfigMap.yml
+ 03-UserManagement-ConfigMap.yml
 
 </aside>
 
@@ -71,7 +71,7 @@ data:
 ```
 
 <aside>
-💡 04-mysql-deployment.yml
+ 04-mysql-deployment.yml
 
 </aside>
 
@@ -116,7 +116,7 @@ spec:
 ```
 
 <aside>
-💡 05-mysql-clusterip-service.yml
+ 05-mysql-clusterip-service.yml
 
 </aside>
 

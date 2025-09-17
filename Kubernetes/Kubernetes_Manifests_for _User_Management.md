@@ -19,7 +19,7 @@
 | NodePort Service | 07-UserManagement-Service.yml |
 
 <aside>
-💡 **Create User Management Microservice Deployment manifest**
+ **Create User Management Microservice Deployment manifest**
 
 </aside>
 
@@ -69,7 +69,7 @@ spec:
 ```
 
 <aside>
-💡 **Create User Management Microservice NodePort Service manifest**
+ **Create User Management Microservice NodePort Service manifest**
 
 </aside>
 
@@ -91,7 +91,7 @@ spec:
 ```
 
 <aside>
-💡
+
 
 use storageclass,deployment,configmap,file from previous folder the create this
 
@@ -112,7 +112,7 @@ kubectl get sc,pvc,pv
 ```
 
 <aside>
-💡 **Problem Observation:**
+ **Problem Observation:**
 
 - If we deploy all manifests at a time, by the time mysql is ready our `User Management Microservice` pod will be restarting multiple times due to unavailability of Database.
 - To avoid such situations, we can apply `initContainers` concept to our User management Microservice `Deployment manifest`.
@@ -120,7 +120,7 @@ kubectl get sc,pvc,pv
 </aside>
 
 <aside>
-💡 **Access Application**
+ **Access Application**
 
 </aside>
 
@@ -136,7 +136,7 @@ http://<EKS-WorkerNode-Public-IP>:31231/usermgmt/health-status
 ```
 
 <aside>
-💡 **Test User Management Microservice using Postman**
+ **Test User Management Microservice using Postman**
 
 </aside>
 

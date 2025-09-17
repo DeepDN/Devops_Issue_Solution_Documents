@@ -36,7 +36,7 @@ pipeline {
 ```
 
 <aside>
-💡 output
+ output
 
 </aside>
 

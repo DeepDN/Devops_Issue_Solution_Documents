@@ -1,6 +1,6 @@
 # EKS Storage with EBS - Elastic Block Store
 <aside>
-💡 **Step-02:  Create IAM policyy**
+ **Step-02:  Create IAM policyy**
 
 </aside>
 
@@ -41,7 +41,7 @@
     - Click on **Create Policy**
     
     <aside>
-    💡 **Get the IAM role Worker Nodes using and Associate this policy to that role**
+     **Get the IAM role Worker Nodes using and Associate this policy to that role**
     
     </aside>
     
@@ -54,7 +54,7 @@
     ```
     
     <aside>
-    💡
+    
     
     - Go to Services -> IAM -> Roles
     - Search for role with name **eksctl-eksdemo1-nodegroup** and open it
@@ -65,7 +65,7 @@
     </aside>
     
     <aside>
-    💡 **Step-04: Deploy Amazon EBS CSI Driver**
+     **Step-04: Deploy Amazon EBS CSI Driver**
     
     </aside>
     

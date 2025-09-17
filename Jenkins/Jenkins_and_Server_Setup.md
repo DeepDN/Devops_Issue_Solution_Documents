@@ -8,7 +8,7 @@ sudo su - jenkins
 ```
 
 <aside>
-💡 on jenkins server-create sshkey
+ on jenkins server-create sshkey
 
 </aside>
 
@@ -18,12 +18,12 @@ ssh-keygen
 ```
 
 <aside>
-💡 on remote server -login- passwordbase authentication yes..
+ on remote server -login- passwordbase authentication yes..
 
 </aside>
 
 <aside>
-💡 genarate password for user
+ genarate password for user
 
 </aside>
 
@@ -38,7 +38,7 @@ passworbaswauthentication yes
 ```
 
 <aside>
-💡 on jenkins server..copy public key to remote server
+ on jenkins server..copy public key to remote server
 
 </aside>
 
@@ -48,17 +48,17 @@ ssh-copy-id ubuntu@3.110.202.104
 ```
 
 <aside>
-💡 try to login with username@ip without pem .try with public ip ten with private ip
+ try to login with username@ip without pem .try with public ip ten with private ip
 
 </aside>
 
 <aside>
-💡 now you can scp through jenkins
+ now you can scp through jenkins
 
 </aside>
 
 <aside>
-💡 jenkins server
+ jenkins server
 
 </aside>
 
@@ -69,7 +69,7 @@ ssh-copy-id ubuntu@3.110.202.104
 ![alt text](image-3.png)
 
 <aside>
-💡 in jenkins job post build action execute shell
+ in jenkins job post build action execute shell
 
 </aside>
 

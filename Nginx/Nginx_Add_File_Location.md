@@ -9,7 +9,7 @@ read file which you want to edit with (nano) command.
 in file add below code for json file format
 
 <aside>
-💡 # Location specifically for serving the file
+ # Location specifically for serving the file
 location /test.json {
     root /usr/share/nginx/well-known;
     default_type application/json;
@@ -27,7 +27,7 @@ in root /usr/share/nginx/well-known; ➖this is a file location where your file 
 if you want to add .txt file then use below code
 
 <aside>
-💡 # Location specifically for serving the file
+ # Location specifically for serving the file
 location /test.txt {
     root /usr/share/nginx/well-known;
     default_type text/plain;
