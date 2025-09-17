@@ -154,7 +154,7 @@ POOL_DATABASE_URL=postgres://postgres.oqgpktripebxglwnyeex:ceKgBZZmTWWex8Vf@aws-
                 def message = "Build ${buildStatus}: ${env.JOB_NAME} #${env.BUILD_NUMBER} \n ${startedBy} on PROD \n Date/Time: ${currentTime} UTC \n WHAT: ${WHAT} \n WHY: ${WHY}"
 
                 // Send notification to Google Chat
-                 googlechatnotification url: 'https://chat.googleapis.com/v1/spaces/AAAAgbFT0F8/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=8SWtqRPaIUalrhKSJxiK49LreBFqoleCcGIyVUMoVbc', message: message
+                 googlechatnotification url: '<URL>', message: message
             def imageId = sh (
                 script: "docker images --format '{{.ID}} {{.Repository}}:{{.Tag}}' | grep '668004263903.dkr.ecr.ap-south-1.amazonaws.com/prod-credebl2.0:${ECR_IMAGE_TAG}' | awk '{print \$1}'",
                 returnStdout: true
