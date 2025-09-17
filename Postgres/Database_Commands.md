@@ -25,7 +25,7 @@ SELECT * FROM pg_user;
 
 ```bash
 ALTER USER supabase_admin PASSWORD 'new_password';
-ALTER USER postgres PASSWORD 'Sheetal123';
+ALTER USER postgres PASSWORD 'Password123;
 ```
 
 <aside>
